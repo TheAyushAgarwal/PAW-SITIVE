@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+button {
+  background: none;
+  border: 0;
+  box-sizing: border-box;
+  color: transparent;
+  cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 12px;
+  
+  letter-spacing: 1.5px;
+  line-height: 40px;
+  outline: none;
+  overflow: hidden;
+  padding: 10px 0 0;
+  /* position: absolute; */
+  text-transform: uppercase;
+  
+  transform: translate(-50%, -50%);
+  transition: all 0.2s ease-in;
+  width: 60px;
+}
+
+button::before,
+button::after {
+  background-color: white;
+  content: '';
+  display: block;
+  height: 3px;
+  left: 0;
+  position: absolute;
+  transform-origin: center left;
+  transition: all 0.2s ease-in;
+  width: 141.4214px;
+  z-index: -1;
+}
+
+button::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+button::after {
+  bottom: 0;
+  transform: rotate(-45deg);
+}
+
+button:hover {
+  color: #8A2387;
+}
+
+button:hover::before,
+button:hover::after {
+  height: 50px;
+  transform: rotate(0deg);
+}
+
+#sign-form-close{
+  position:absolute;
+  top:2.5rem;
+  right:4rem;
+  cursor:pointer;
+}
+
+/* .background-class{
+  background-image: url('../../assets/16.png');
+  background-color: rgba(0,0,0,0.5);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  
+} */
+
+html,body{
+background-image: url('../../assets/16.png');
+background-color: rgba(0,0,0,0.5);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+/* margin-top: 10%; */
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+/* margin-top: 10%; */
+/* background-image: url('../../assets/16.png'); */
+}
+
+.card{
+height: 400px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+/* *{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+
+ .kk{
+  float: right;
+    
+}
+.form1{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../assets/16.png");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#Some{
+  text-align: center;
+  align-items: center;
+}
+
+    
+form {
+    width: 350px;
+    position: relative;
+}
+  .form-field1{
+    
+    margin: 0;
+    padding: 0;
+  }
+ 
+  form input {
+    font-family: inherit;
+    width: 93%;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: none;
+    display: block;
+    padding: 0.9rem 0.7rem;
+    font-size: 17px;
+    color: black;
+    text-align: center;
+  }
+  form .btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.9rem 2.5rem;
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    font-size: 17px;
+    
+  
+  } 
+  */

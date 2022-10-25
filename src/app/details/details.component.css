@@ -1,0 +1,53 @@
+a{
+    text-decoration: none;
+    display: block;
+    font-size: 130%;
+    color: yellow;
+    text-shadow: 3px 3px 6px black;
+    font-style: italic;
+    transition: font-size .3s;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+#first{
+    margin-top: 5%;
+}
+.row{
+    height: 100%;
+    width: 100%;
+    
+}
+a:hover{
+    font-size: 140%;
+    color: white;
+}
+h1{
+    font-size: 350%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: yellow;
+    text-shadow: 3px 3px 6px black;
+    font-style: italic;
+    
+}
+p{
+    font-size: 150%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-style: italic;
+    font: italic bold 20px/35px Georgia, serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+*{
+    background-color: brown;
+}
+/* div{
+    background-color: rgba(0, 0, 0, 0.5)
+} */
